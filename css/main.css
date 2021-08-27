@@ -1,0 +1,138 @@
+/*Pagina web de un taller mecanico que presta servicos.
+Creado por: Salome Vasquez 0909-20-5202
+fecha de entrga: 27/08/2021*/
+
+/*Importamos la tipografia de la pagina web*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/*Lo implementamos en el html y en le etiqueta body*/
+html, body{
+    font-family: 'Lato', sans-serif;
+    /*ancho total de la pantalla a html y body*/
+    width: 100%;
+    height:100%;
+    margin: 0;
+}
+
+/*Detallar del menu de barra*/
+#menu{
+    width: 100%;
+    height: 10%;                       
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    background-color:cadetblue
+}
+
+#menu #logo-menu{
+    height: 100%;
+    width: 30%; /*el espacio que ocupara el logo*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+#menu #conectar-link{
+    height: 100%;
+    width: 70%;  /*espacio que ocupara los apartados*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+/*se quita el estilo de lista*/
+#menu #conectar-link nav{
+    height: 100%;
+    width: 90% ;
+    margin: 0%;
+}
+#menu #conectar-link nav ul{
+    height: 100%;
+    width: 100% !important;
+    margin: 0%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#menu #conectar-link ul li{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu #conectar-link ul li:hover{
+    background-color: rgb(122, 196, 211);
+    cursor: pointer;
+}
+
+#menu #conectar-link ul li a{ /*color de las letras del menu*/
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*fondo de pantalla*/
+#cuerpo{
+    width: 100%;
+    height: 100%;
+}
+
+#cuerpo #inicio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+#cuerpo #inico h1{
+    font-size: 6rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 0;
+}
+
+#cuerpo #sobre-nosotros{
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+#cuerpo #nuestro-equipo{
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: slateblue;
+}
+
+#cuerpo #contactos{
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
