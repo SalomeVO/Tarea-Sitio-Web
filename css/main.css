@@ -120,6 +120,16 @@ html, body{
     padding-top: 5%;
     background-color: aquamarine;
 }
+#cuerpo #sobre-nosotros h1{
+    font-size: 2rem;    
+    height: 3%;
+    width: 100%;
+    text-decoration: none;
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 #cuerpo #sobre-nosotros strong{ 
     height: 100%;
@@ -133,6 +143,17 @@ html, body{
     height: 100%;
     padding-top: 5%;
     background-color: slateblue;
+}
+
+#cuerpo #nuestro-equipo h1{
+    font-size: 2rem;    
+    height: 3%;
+    width: 100%;
+    text-decoration: none;
+    color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #cuerpo #contactos{
@@ -150,5 +171,16 @@ html, body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+#cuerpo #contactos h1{
+    font-size: 2rem;    
+    height: 3%;
+    width: 100%;
+    text-decoration: none;
+    color: royalblue;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
